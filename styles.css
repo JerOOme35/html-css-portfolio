@@ -1,4 +1,154 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
+}
+
+.logo {
+    background-image: url(images/logo.png);
+    margin: 50px auto;
+    width: 502px;
+	height: 135px;
+
+}
+
+header img {
+    /* display: block;  */
+    margin: 50px auto;
+    width: 502px;
+    height: 135px;
+}
+
+#imageacc {
+    background-image: url(images/hero.png);
+    background-size: cover;
+    display: block;
+    height: 400px;
+    width: auto;
+    margin: 50px auto;
+}
+
+#imageacc h1 {
+    text-align: center;
+    line-height: 400px;
+    font-family:'Playfair Display', serif;
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.column {
+    float: left;
+    width: 480px;
+    
+}
+.column-right {
+    margin-left: 30px;
+
+}
+
+.clear {
+    clear: left;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-top: 0;
+
+}
+
+.text {
+    margin-top: 30px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.titreimg {
+    text-align: right;
+    font-family:'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.images {
+    height: 500px;
+    width: 480px;
+}
+
+.images img
+{
+    width: 225px;
+    height: 149px;
+    display: block;
+    float: left;
+    margin: 0px 30px 30px 0;
+}
+
+.images img:nth-child(2n+2) {
+    margin-right: 0;
+}
+
+
+footer {
+    background-color: black;
+    display: block;
+    width: auto;
+}
+
+.container2 {
+    margin: 0 auto;
+    height: 167px;
+    width: 990px;
+}
+li {
+    display: inline-block;
+    margin: 70px 0px 0px 25px;
+    font-family:'Playfair Display', serif;
+    font-size: 16px;
+    color: white;
+    word-spacing: 50px;
+}
+
+
+#logotype {
+    float: right;
+    margin-top: 50px;
+    margin-right: 25px;
+
+}
+
+#imagegal {
+    background-image: url(images/hero.png);
+    background-size: cover;
+    display: block;
+    height: 70px;
+    width: auto;
+    margin: 20px auto;
+
+}
+
+#shots {
+    font-family:'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.imagesgal {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;;
 }
